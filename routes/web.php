@@ -25,3 +25,7 @@ Route::get('/nogay', function () {
     return view('nogay');
 });
 
+Route::get('/about', function () {
+    return redirect("nogay");
+});
+
